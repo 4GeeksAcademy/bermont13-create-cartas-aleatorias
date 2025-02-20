@@ -1,5 +1,45 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
-
 body{
-    background: blue;
+    background-color: green;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.carta{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+
+}
+.carta-arriba{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+
+}
+.valor{
+    font-size: 40px;       
+    display: flex;
+    justify-content: center;
+
+}
+.carta-abajo{
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+}
+.texto-rojo{
+    color:red;
+    
 }
